@@ -1,4 +1,5 @@
-git clone https://github.com/YOUR_USERNAME/madya-mapper.git
+git clone https://github.com/YOU/madya-mapper.git
 cd madya-mapper
-mkdir -p backend frontend docs .github/workflows
-touch README.md docker-compose.yml
+# ... copy seluruh folder backend/ frontend/ docker-compose.yml ...
+git add . && git commit -m "Init: aplikasi mapping RS Madya"
+git push origin main
